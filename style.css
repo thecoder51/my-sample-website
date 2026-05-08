@@ -2,15 +2,15 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --clr-bg:        #0f1117;
-  --clr-surface:   #1a1d27;
-  --clr-border:    #2a2d3e;
-  --clr-accent:    #2563eb;
-  --clr-accent2:   #60a5fa;
-  --clr-text:      #e2e8f0;
-  --clr-muted:     #94a3b8;
+  --clr-bg:        #e8f0e9;
+  --clr-surface:   #d4e6d5;
+  --clr-border:    #b0ceb2;
+  --clr-accent:    #2d7a3a;
+  --clr-accent2:   #4caf61;
+  --clr-text:      #1a2e1b;
+  --clr-muted:     #4a6b4c;
   --radius:        12px;
-  --shadow:        0 4px 24px rgba(0,0,0,.4);
+  --shadow:        0 4px 24px rgba(0,0,0,.12);
   --transition:    .25s ease;
   --font:          'Segoe UI', system-ui, sans-serif;
 }
@@ -29,7 +29,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(15,17,23,.85);
+  background: rgba(232,240,233,.9);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--clr-border);
 }
